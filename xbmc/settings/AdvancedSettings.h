@@ -219,8 +219,8 @@ class CAdvancedSettings : public ISettingCallback, public ISettingsHandler
 
     bool m_fullScreenOnMovieStart;
     CStdString m_cachePath;
-    CStdString m_videoCleanDateTimeRegExp;
     std::vector<std::string> m_videoCleanStringRegExps;
+    std::vector<std::string> m_videoCleanDateTimeRegExps;
     std::vector<std::string> m_videoExcludeFromListingRegExps;
     std::vector<std::string> m_moviesExcludeFromScanRegExps;
     std::vector<std::string> m_tvshowExcludeFromScanRegExps;
